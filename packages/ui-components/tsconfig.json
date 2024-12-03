@@ -1,0 +1,15 @@
+{
+  "extends": "../typescript-config/base.json", // Extending from the common config
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx", // This is essential for JSX support
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {}
+  }
+}
